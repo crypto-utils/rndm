@@ -9,5 +9,24 @@
     "twitter": "https://twitter.com/jongleberry"
   },
   "license": "MIT",
-  "repository": "jonathanong/rndm"
+  "devDependencies": {
+    "mocha": "2",
+    "istanbul": "0"
+  },
+  "repository": "crypto-utils/rndm",
+  "scripts": {
+    "test": "mocha",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot"
+  },
+  "keywords": [
+    "random",
+    "number",
+    "generator",
+    "uid",
+    "id"
+  ],
+  "files": [
+    "index.js"
+  ]
 }
