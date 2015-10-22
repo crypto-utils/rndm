@@ -13,10 +13,10 @@ exports.base10 = create(base10)
 exports.create = create
 
 function create(chars) {
-  assert(typeof chars === 'string')
+  assert(typeof chars === 'string', 'the list of characters must be a string!')
   var length = Buffer.byteLength(chars)
   return function rndm(len) {
-    assert(typeof len === 'number' && len >= 0)
+    assert(typeof len === 'number' && len >= 0, 'the length of the random string must be a number!')
     var salt = ''
     for (var i = 0; i < len; i++) salt += chars[Math.floor(length * Math.random())]
     return salt
