@@ -19,3 +19,7 @@ it('should be base62 by default', function () {
   assert(/^[0-9a-z]{100}$/i.test(rndm(100)))
   assert(/^[0-9a-z]{100}$/i.test(rndm.base62(100)))
 })
+
+it('should be length 10 by default', function () {
+  assert(/^[0-9a-z]{10}$/i.test(rndm()))
+})
