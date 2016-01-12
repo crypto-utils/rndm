@@ -11,7 +11,7 @@
   "license": "MIT",
   "devDependencies": {
     "mocha": "2",
-    "istanbul": "0"
+    "istanbul": "0.4.2"
   },
   "repository": "crypto-utils/rndm",
   "scripts": {
