@@ -10,7 +10,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "mocha": "2",
+    "mocha": "2.4.1",
     "istanbul": "0"
   },
   "repository": "crypto-utils/rndm",
