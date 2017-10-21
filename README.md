@@ -16,7 +16,9 @@ var salt = rndm(16)
 
 ### var salt = rndm(length)
 
-Same as rndm.base62(length), Creates a random string contains numbers and both upper and lower case letters (0-9, a-z, A-Z). Default length is 10.
+Creates a random string contains numbers and both upper and lower case letters (0-9, a-z, A-Z). Default length is 10.
+
+Same as rndm.base62(length)
 
 ### var salt = rndm.base62(length)
 
